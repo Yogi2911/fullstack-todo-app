@@ -50,3 +50,8 @@ That's it — add, check off, and delete todos. Data persists in `todos.db` (cre
 | POST   | `/api/todos`         | Create a todo (`{"task": "..."}`) |
 | PATCH  | `/api/todos/<id>`     | Update a todo (`{"task": "...", "done": true}`) |
 | DELETE | `/api/todos/<id>`     | Delete a todo         |
+
+
+## Development Status
+
+User profile functionality is currently being developed.
