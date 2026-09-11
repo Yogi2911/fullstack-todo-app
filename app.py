@@ -99,7 +99,7 @@ def login():
 
         return render_template(
             "login.html",
-            error="Invalid username or password"
+            error="Invalid username or password. Please try again."
         )
 
     return render_template("login.html")
