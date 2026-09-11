@@ -243,3 +243,8 @@ if __name__ == "__main__":
         host="127.0.0.1",
         port=5000
     )
+
+@app.route("/profile")
+@login_required
+def profile():
+    return render_template("profile.html")
